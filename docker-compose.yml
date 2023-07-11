@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  db:
+    image: postgres:11
+    environment:
+      POSTGRES_PASSWORD: uhafas26
+      POSTGRES_DB: simple_user_service
+      POSTGRES_USER: nest_user
+    ports:
+      - '5442:5432'
